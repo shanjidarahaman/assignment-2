@@ -24,9 +24,12 @@
 .navbar{
     justify-content: space-between;
     align-items: center;
+    
+
+}
+.navbar,.hero-section{
     max-width: 1440px;
     margin: 0 auto;
-
 }
 .logo {
     max-width: 200px;
@@ -63,4 +66,11 @@
      font-size: 20px;
      font-weight: 600;
     border-color: white;
+}
+
+.hero-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
 }
